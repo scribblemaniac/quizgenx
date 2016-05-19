@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8" />
+  <script src="themes/Classic/base.js"></script>
+  <link rel="stylesheet" href="themes/Classic/base.css" />
+ </head>
+ <body>
+  <div id="quizgenx-templates">
+   <div name="group" level="1">
+    <h1 name="title"></h1>
+    <div name="description"></div>
+    <div name="children"></div>
+   </div>
+   <div name="group" level="2">
+    <h2 name="title"></h2>
+    <div name="description" class="group-description"></div>
+    <div name="children"></div>
+   </div>
+   <div name="group" level="3">
+    <h3 name="title"></h3>
+    <div name="description" class="group-description"></div>
+    <div name="children"></div>
+   </div>
+   <div name="group" level="4">
+    <h4 name="title"></h4>
+    <div name="description" class="group-description"></div>
+    <div name="children"></div>
+   </div>
+   <div name="group" level="5">
+    <h5 name="title"></h5>
+    <div name="description" class="group-description"></div>
+    <div name="children"></div>
+   </div>
+   <div name="group" level="0">
+    <div style="text-decoration: underline;" name="title"></div>
+    <div name="description" class="group-description"></div>
+    <div name="children"></div>
+   </div>
+   <div name="question" class="question">
+    <h5 name="title"></h5>
+    <div name="description"></div>
+    <ol name="options" type="a">
+     <li name="option" x-name="question-option" class="option"></li>
+     <li name="correct-option" class="option correct"></li>
+    </ol>
+   </div>
+  </div>
+  <div id="quizgenx-body-content" x-id="main-wrapper"></div>
+ </body>
+</html>

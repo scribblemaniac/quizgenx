@@ -1,0 +1,17 @@
+= Main title
+{'toc': True}
+Main description
+== Problem group title
+{'attributes': [('id', 'first-group')]}
+Problem group description
+More problem group description
+-- Question title
+Question description
+* Question option 1
+* Question option 2
+\==
+--
+This is a question in <span style="text-decoration: underline;">main</span>
+# This is a comment that is ignored
+*= True
+* False
